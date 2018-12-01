@@ -1,0 +1,24 @@
+.header{
+  text-align: center;
+}
+
+.row .col-md-4{
+  display: block;
+  width: 100%
+}
+
+a.internal{
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a.internal:hover{
+  text-decoration: underline;
+}
+
+@media (min-width: 840px){
+  .row .col-md-4{
+    display: inline-block;
+    width: 33%;
+  }
+}
